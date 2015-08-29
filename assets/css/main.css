@@ -1,3 +1,7 @@
+html{
+	padding:0px;
+}
+
 [class*='btn-'] {
 	background-color: #1ed760;
 	border: none;
@@ -29,7 +33,7 @@
 }
 
 .btn-plan {
-	background-color: #0d668d;
+	background-color: rgba(0,0,0,0.3);
 }
 
 .menu {
@@ -75,7 +79,7 @@
 	color: #FFF;
 	padding-right: 300px;
 }
-/*+++++++++++++++++++++theft+++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++theft++++++++++++++++++++++++++-------------------------------------------+*/
 .theft {
 	background-color: #3eb8f7;
 	padding-top: 40px;
@@ -125,8 +129,7 @@
 }
 .specs-list{
 margin-top: 15px;
-margin-left: 10%;
-margin-right:10%;
+padding:0 10%;
 width: 100%;
 
 }
@@ -135,7 +138,7 @@ width: 100%;
 	margin-right: 10px;
 }
 
-/*------------------------------testimony-------------------------------------------------*/
+/*------------------------------testimony-----------------------------------------------------------------*/
 
 .testimony{
 	text-align: center;
@@ -258,4 +261,44 @@ width: 100%;
 	display: inline-block;
 	width: 40px;
 	font-size: 2.1rem;
+}
+/*------------------------education---------------------------------------------------------------------------*/
+.education{
+	background-color:3eb8f7;
+	color:233041;
+	text-align: center;
+}
+.btn-education{
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 35px;
+}
+.education-list{
+	text-align: left;
+	
+}
+.education .row{
+text-align: center;
+}
+
+/**********************************FOOTER++++++++++++++++++++++++*********************************************/
+.footer{
+	background-color:233041;
+	color:f1f1f1;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.footer-logo{
+margin-top: 20px;
+color:rgba(116, 136, 162, 0.7);
+width:300px; 
+height: 80px;
+}
+.footer-menu{
+	font-family: 'Hind';
+	text-transform: uppercase;
+}
+.footer-menu-item{
+	padding-right: 2px;
+	padding-left: 2px;
 }
